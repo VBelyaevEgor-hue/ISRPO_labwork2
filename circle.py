@@ -6,10 +6,10 @@ def area(r):
     Возвращает площадь круга.
 
         Параметры:
-            r (int|float): Радиус круга.
+            r (float): Радиус круга.
         
         Возвращает:
-            area (int|float): Площадь круга.
+            area (float): Площадь круга.
     '''
     return math.pi * r * r
 
@@ -19,10 +19,10 @@ def perimeter(r):
     Возвращает периметр круга.
 
         Параметры:
-            r (int|float): Радиус круга.
+            r (float): Радиус круга.
 
         Возвращает:
-            perimeter (int|float): Периметр круга.
+            perimeter (float): Периметр круга.
     '''
     return 2 * math.pi * r
 
